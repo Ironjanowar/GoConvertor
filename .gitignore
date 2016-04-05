@@ -1,0 +1,10 @@
+# Golang stuff
+bot # Compiled file
+
+# TOKEN
+*.token
+
+# Emacs stuff #
+\#*\#
+*~
+.#*

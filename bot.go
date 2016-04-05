@@ -13,8 +13,7 @@ func check(e error) {
 
 func help(bot tgbot.TgBot, msg tgbot.Message, text string) *string {
 	bot.Answer(msg).Text("hola").End()
-	txt := "potorro"
-	return &txt
+	return nil
 }
 
 func main() {
