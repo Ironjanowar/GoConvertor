@@ -1,0 +1,33 @@
+This is a bot programmed in Go (golang) thanks to this [[https://github.com/rockneurotiko/go-tgbot][API]]  made by [[https://github.com/rockneurotiko][@rockneurotiko]]
+
+*  Installation and usage
+- As usual in go:
+#+BEGIN_SRC bash
+  $ go get -u github.com/rockneurotiko/go-tgbot
+#+END_SRC
+To install the API
+
+- Now clone the reposinory:
+#+BEGIN_SRC bash
+  $ git clone https://github.com/Ironjanowar/GoConvertor.git
+  $ cd GoConvertor
+#+END_SRC
+
+- Create a file named *convertor.token* with your token on it.
+#+BEGIN_SRC bash
+  $ echo "TOKEN" > convertor.token
+#+END_SRC
+
+*NOTE:* Get your own /token/ [[https://core.telegram.org/bots][here]].
+
+- Run the bot
+#+BEGIN_SRC bash
+  $ ./run.sh
+#+END_SRC
+
+* Commands
+    - /start :: Starts the bot!
+    - /help  :: Show commands abailables
+    - /todec :: Takes an hexadecimal or binary number and returns its decimal equivalent
+    - /tohex :: Takes a decimal number and returns its hexadecimal equivalent
+    - /tobin :: Takes a decimal number and returns its binary equivalent
